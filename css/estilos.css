@@ -150,6 +150,9 @@ template {
   font-weight: normal;
   font-style: normal;
 }
+.btn-link{
+  text-decoration: underline;
+}
 .btn {
   width: 100%;
 }
@@ -170,9 +173,7 @@ h1, h2, h3, h4, h5, h6{
   display: block;
   width: 100%;
 }
-.qb-title{
 
-}
 
 .qb-title::before{
   content: "";
@@ -181,12 +182,22 @@ h1, h2, h3, h4, h5, h6{
   height: 3px;
   margin: 0;
   padding: 0;
-  background-color: #D4452C;
+  background-color: #FDD402;
 }
 
 .btn-primary{
-  background-color: #073773;
+  background-color: #FDD402;
+  color: #000;
+  font-weight: 700;
   border-radius: 6px;
   padding: 12px 6px;
+  border: 0px;
+}
+.btn-primary:hover{
+  background-color: #FDD402;
+  color: #000;
+}
 
+.gb-item{
+  margin: 20px 0;
 }
